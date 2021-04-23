@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* NAVBAR */
+
+@media only screen and (min-width: 600px) {
+  .nav-link {
+    display: inline-block !important;
+  }
+  .nav {
+    padding-right: 1rem !important;
+  }
+
+  .nav-link {
+    text-transform: uppercase !important;
+  }
+
+  .navbar-brand {
+    font-family: "Pacifico", cursive;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-link {
+    display: inline-block !important;
+  }
+  .nav {
+    padding-right: 1rem !important;
+  }
+
+  .nav-link {
+    text-transform: uppercase !important;
+  }
+
+  .navbar-brand {
+    font-family: "Pacifico", cursive;
+    text-transform: uppercase;
+  }
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+  padding: 25px 25px !important;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  text-transform: uppercase;
+  font-size: 38px !important;
+  padding-left: 20rem !important;
+}
+
+.nav-link {
+  text-transform: uppercase !important;
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+}
+
+.nav {
+  padding-right: 20rem !important;
+}
+
+.active {
+  border-bottom: 5px solid white;
+  content: " ";
+  left: 0;
+  position: relative;
+  right: 0;
+}
+
+/* HEADER */
+
+.masthead-heading {
+  font-family: "Source Code Pro", monospace;
+  font-size: 48px;
+  font-style: bold;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+.masthead-slogan {
+  font-style: italic;
+}
+
+.masthead-subheading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.masthead-avatar {
+  width: 45rem;
+  padding-bottom: 6rem;
+}
+
+/* HOME */
+
+.review-title {
+  font-family: "Pacifico", cursive;
+  padding-top: 5rem;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.lines {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.review-row {
+  padding-top: 5rem;
+}
+
+.review-img {
+  width: 160px;
+  height: 347px;
+}
+
+/* ABOUT US */
+
+.aboutus {
+  padding-top: 2rem;
+  display: flex;
+}
+
+.intro-about-header {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.intro-about-title {
+  font-family: "Pacifico", cursive;
+  padding-top: 5rem;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.devs {
+  padding-top: 5rem;
+}
+
+/* CONTACT US */
+
+.contact-container input[type="text"] {
+  border-radius: 12px;
+}
+
+.contact-container input[type="email"] {
+  border-radius: 12px;
+}
+
+.contact-container textarea {
+  border-radius: 12px;
+}
+
+.contact-container button {
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 3rem;
+  border-radius: 12px;
+}
+
+.contact-container button:hover {
+  border-color: #00ff44;
+  background-color: #00ff44 !important;
+}
+
+.contact-container button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.contact-container {
+  padding-top: 5rem;
+}
+
+.socials {
+  padding: 1.5rem 0rem;
+}
+
+.socials a {
+  color: #2ed15a !important;
+}
+
+.socials a:hover {
+  color: #00ff44 !important;
+}
+
+.socials ul li {
+  display: inline-block;
+}
+
+/* LOG IN */
+
+.credentials {
+  padding-top: 5rem;
+}
+
+.login-form input[type="email"] {
+  border-radius: 12px;
+}
+
+.login-form input[type="password"] {
+  border-radius: 12px;
+}
+
+.login-form button {
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.login-form button:hover {
+  border-color: #00ff44;
+  background-color: #00ff44 !important;
+}
+
+.login-form button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+/* REGISTER */
+
+.register-form input[type="email"] {
+  border-radius: 12px;
+}
+
+.register-form input[type="password"] {
+  border-radius: 12px;
+}
+
+.register-form input[type="text"] {
+  border-radius: 12px;
+}
+
+.register-form button {
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.register-form button:hover {
+  border-color: #00ff44;
+  background-color: #00ff44 !important;
+}
+
+.register-form button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+/* DASHBOARD */
+
+.modal-content {
+  border-radius: 12px !important;
+}
+
+.review-form input[type="text"] {
+  border-radius: 12px !important;
+}
+
+.review-form textarea {
+  resize: none;
+  border-radius: 12px !important;
+}
+
+.review-form button {
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.review-form button:hover {
+  border-color: #00ff44;
+  background-color: #00ff44 !important;
+}
+
+.review-form button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.my-reviews {
+  padding-top: 5rem;
+}
+
+.my-reviews button {
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.my-reviews button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.my-reviews button:hover {
+  border-color: #00ff44;
+  background-color: #00ff44 !important;
+}
+
+/* FOOTER */
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* 404 */
+
+.content-404 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.title-404 {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 72px;
+}
+
+.text-404 {
+  color: white;
+  font-size: 48px;
+}
+
+.change-password-form button {
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
+
+.change-password-form button:hover {
+  border-color: #00ff44;
+  background-color: #00ff44 !important;
+}
+
+.change-password-form input[type="password"] {
+  border-radius: 12px;
+}
+
+.change-password-form button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #2ed15a;
+  border-color: #2ed15a;
+  font-size: 14px !important;
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+}
